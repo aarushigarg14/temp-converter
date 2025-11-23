@@ -1,7 +1,7 @@
 def convert(value, scale):
     if scale == "C":
-        return (value * 9/5) + 32 + 5   # Modified in branch 1   # This line will be changed in both branches
+        return (value * 9/5) + 32
     elif scale == "F":
-        return (value - 32) * 5/9   # This line will also be changed differently
+        return (value - 32) * 5/9   
     else:
         return "Invalid scale"
